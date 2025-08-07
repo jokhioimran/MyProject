@@ -4,8 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My App - Home</title>
+    <style>
+        * {
+            font-family: cursive;
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        nav {
+            height: 50px;
+            background-color: black;
+            color: wheat;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+        nav ul li {
+            margin-right: 16px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: wheat;
+        }
+        nav ul li a:hover {
+            color: crimson;
+            text-decoration: overline;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
     <h1>Welcome to My WebSite</h1>
     <h2>You will find everything here...</h2>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos quidem quaerat vel explicabo sequi pariatur voluptatibus omnis, quam recusandae possimus provident tenetur? Nostrum repellat voluptatum culpa vitae at, nemo facilis.</p>
